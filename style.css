@@ -11,6 +11,17 @@ p {
 	font-size: 18px;
 }
 
+button {
+	width: 150px;
+	color: white;
+	background-color: #ff5959;
+	padding: 10px 20px;
+	border: 1px solid #ff5959;
+	border-radius: 5px;
+	cursor: pointer;
+	margin: auto;
+}
+
 /* top banner */
 
 header {
@@ -26,7 +37,8 @@ header {
 	justify-content: center;
 	align-items: center;
 	height: 100%;
-	width: 100%;
+	width: 60%;
+	margin: auto;
 	color: white;
 	text-align: center;
 }
@@ -38,4 +50,46 @@ header {
 	font-size: 18px;
 	border-radius: 5px;
 	border: 2px solid #ff5959;
+}
+
+/* donate today */
+.donate-today {
+	width: 60%;
+	margin: auto;
+	text-align: center;
+}
+.donate-amount-plan {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.donate-amount-plan div {
+	margin: 10px 0px;
+	padding: 45px 25px;
+	background-color: #fafafa;
+}
+
+.donate-amount-plan div.active {
+	border: 2px solid #ff5959;
+	border-radius: 5px;
+	background-color: rgba(255, 89, 89, 0.09);
+}
+
+.donate-now-form {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+
+input::placeholder {
+	text-align: center;
+}
+
+.donate-now-form input {
+	border: none;
+	border-bottom: 1px solid #dadada;
+	outline: none;
+	margin: 30px 0px;
+	padding: 0.5em 1em;
 }
