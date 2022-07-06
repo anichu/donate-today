@@ -7,11 +7,15 @@ h1 {
 	letter-spacing: 2px;
 }
 
+h2 {
+	font-size: 38px;
+}
+
 p {
 	font-size: 18px;
 }
 
-button {
+#donate-button {
 	width: 150px;
 	color: white;
 	background-color: #ff5959;
@@ -109,6 +113,7 @@ input::placeholder {
 	margin: 30px auto;
 	padding: 30px;
 	text-align: left;
+	border-radius: 5px;
 }
 #first-plan {
 	background-color: rgba(79, 157, 166, 0.1);
@@ -120,4 +125,70 @@ input::placeholder {
 
 #third-plan {
 	background-color: #fff4d6;
+}
+
+.flex-to-row {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.half-width {
+	width: 40%;
+	margin: 0 5%;
+}
+.half-width img {
+	width: 100%;
+	border-radius: 5px;
+}
+
+.margin-top-50 {
+	margin-top: 100px;
+}
+.subscribe {
+	text-align: center;
+	width: 80%;
+	margin: auto;
+}
+.subscribe-form-box {
+	background-color: #fff4d6;
+	padding: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.subscribe-form-box input {
+	outline: none;
+	border: 1px solid #d9d9d9;
+	width: 50%;
+	padding: 7px 0px;
+	text-indent: 10px;
+	border: none;
+	background-color: #d9d9d9;
+	font-size: 18px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+#subscribe-button {
+	padding: 5px 1em;
+	border: 2px solid #ff5959;
+	background-color: #ff5959;
+	color: white;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	font-size: 18px;
+	text-transform: capitalize;
+}
+
+footer {
+	text-align: center;
+	background-color: #0b0d17;
+	padding: 10px 0px;
+	color: white;
+	margin-top: 100px;
+}
+.footer-heading {
+	color: #ff5959;
 }
